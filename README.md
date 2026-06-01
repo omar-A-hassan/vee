@@ -83,16 +83,17 @@ The skill classifies scope first, so it never sledgehammers a one-liner:
 
 Claude-first. Two ways:
 
-**As a plugin (persistent):**
+**As a plugin (persistent):** from within Claude Code, add the marketplace, then install:
 ```
-/plugin marketplace add /path/to/this/repo
+/plugin marketplace add omar-A-hassan/vee
 /plugin install v-model@v-model-skills
 ```
 Then `/v-model` is available in any session. Use `/plugin` to manage it.
 
-**For one session (no install):**
+**For one session (no install):** clone the repo and point Claude Code at it:
 ```bash
-claude --plugin-dir /path/to/this/repo
+git clone https://github.com/omar-A-hassan/vee.git
+claude --plugin-dir ./vee
 ```
 
 **As a personal skill:** copy `skills/v-model/SKILL.md` into your personal skills
