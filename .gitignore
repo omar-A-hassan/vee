@@ -1,0 +1,5 @@
+# Source/scratch artifacts not part of the published plugin
+Screenshot*.png
+
+# Internal design docs — not part of the published plugin
+docs/

@@ -1,0 +1,11 @@
+{
+  "name": "v-model",
+  "description": "NASA V-Model systems engineering for LLM coding: leveled altitude, paired verification defined on descent, and a traceability matrix spine.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Omar Hassan"
+  },
+  "license": "MIT",
+  "keywords": ["v-model", "systems-engineering", "verification", "traceability", "nasa", "workflow"],
+  "skills": ["./skills/v-model"]
+}

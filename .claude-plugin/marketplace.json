@@ -1,0 +1,24 @@
+{
+  "name": "v-model-skills",
+  "id": "v-model-skills",
+  "owner": {
+    "name": "Omar Hassan"
+  },
+  "metadata": {
+    "description": "NASA V-Model systems engineering workflow for LLM coding.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "v-model",
+      "source": "./",
+      "description": "Drives a coding task down the V (define each level + its paired verification), implements, then climbs verifying bottom-up and validating against intent. Traceability matrix as the spine.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Omar Hassan"
+      },
+      "keywords": ["v-model", "systems-engineering", "verification", "traceability", "nasa"],
+      "category": "workflow"
+    }
+  ]
+}
